@@ -10,7 +10,7 @@ import Error404Site from "../components/site/Error404Site";
 const RoutesSite = (props) => (
 
     <Fragment>
-        {/*<Suspense fallback={"wait"}>*/}
+        <Suspense fallback={"wait"}>
             <Switch>
                 <Route exact path="/" component={IndexSite} />
                 <Route exact path="/about/" component={AboutSite} />
@@ -18,7 +18,7 @@ const RoutesSite = (props) => (
                 <Route exact path="/contact/" component={withRouter(ContactSite)} />
                 <Route component={Error404Site} />
             </Switch>
-        {/*</Suspense>*/}
+        </Suspense>
     </Fragment>
 
 );
