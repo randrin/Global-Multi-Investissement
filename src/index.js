@@ -6,14 +6,13 @@ import { BrowserRouter, Route } from 'react-router-dom';
 //import ReactGA from 'react-ga';
 //import Cookies from 'universal-cookie';
 
-/** Include css */
-import './index.css';
-import './App.css';
+/** Include scss */
+import './global.scss';
 /** End */
 
 
 
-import RouterUser from "./router/RouterUser";
+import RoutesSite from "./routes/RoutesSite";
 
 /** Import redux */
 import { Provider } from "react-redux";
@@ -26,7 +25,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
     <Provider store={store}>
         <BrowserRouter>
-            <Route component={RouterUser} />
+            <Route component={RoutesSite} />
         </BrowserRouter>
     </Provider>,
     document.getElementById('global-investissement')
