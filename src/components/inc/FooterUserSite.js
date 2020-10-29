@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
 
 class FooterUserSite extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            currentDate: new Date().getFullYear()
+        }
+    }
     render() {
+        const { currentDate } = this.state;
         return (
             <>
                 <footer>
@@ -52,13 +59,15 @@ class FooterUserSite extends Component {
                             </div>
                             <div className="col-lg-2 col-md-4">
                                 <div className="widget">
-                                    <div className="widget-title"><h4>Navigate</h4></div>
+                                    <div className="widget-title"><h4>Compagny</h4></div>
                                     <ul className="list-style">
-                                        <li><a href="about.html" title="">about us</a></li>
-                                        <li><a href="contact.html" title="">contact us</a></li>
-                                        <li><a href="terms.html" title="">terms & Conditions</a></li>
-                                        <li><a href="#" title="">RSS syndication</a></li>
-                                        <li><a href="sitemap.html" title="">Sitemap</a></li>
+                                        <li><a href="#">about us</a></li>
+                                        <li><a href="#">Security</a></li>
+                                        <li><a href="#">Blog</a></li>
+                                        <li><a href="#">Careers</a></li>
+                                        <li><a href="#">Affiliate</a></li>
+                                        <li><a href="#">Partners</a></li>
+                                        <li><a href="#">contact us</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -90,14 +99,21 @@ class FooterUserSite extends Component {
                         </div>
                     </div>
                 </footer>
-                {/*footer*/}
+                {/*Footer*/}
                 <div className="bottombar">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-12">
-                        <span className="copyright"><a target="_blank"
-                                                       href="https://www.templateshub.net">Templates Hub</a></span>
-                                <i><img src="/assets/images/credit-cards.png" alt=""/></i>
+                                <span className="copyright">Copyright © {currentDate} -
+                                    <a href="/" className="global-footer-title underline">Global Multi Investissement</a> . Réalisé par <a target="_blank" href={'www.kazougroup.com'}>KazouGroup Srl</a>
+                                </span>
+                                <i>
+                                    <a href="/privacy-policy" className="underline global-footer-link">Privacy Policy</a>
+                                    <span className="global-bullet"></span>
+                                    <a href="/conditions-terms" className="underline global-footer-link">Terms & Conditions</a>
+                                    <span className="global-bullet"></span>
+                                    <a href="/cookies" className="underline global-footer-link">Cookies</a>
+                                </i>
                             </div>
                         </div>
                     </div>

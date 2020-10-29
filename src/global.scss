@@ -9,3 +9,26 @@
 ::-webkit-scrollbar {
   width: 10px;
 }
+
+.global-footer-title {
+  left: 5px;
+  color: var(--blue-pacific);
+}
+
+.global-main-menu::after {
+  content: '' !important;
+}
+
+.global-bullet {
+  display: inline;
+  margin: 0 4px;
+  color: var(--blue-pacific);
+
+  &::after {
+    content: "\2022";
+  }
+}
+
+.global-footer-link {
+  font-size: 14px;
+}

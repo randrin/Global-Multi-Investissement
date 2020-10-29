@@ -1,5 +1,5 @@
 .global-bg-image {
-  //background-image: url('assets/images/resources/404.jpg');
+  //background-image: url('/assets/images/resources/404.jpg');
 }
 
 .global-user-setting {
@@ -8,4 +8,14 @@
 
 .top-area > ul.main-menu {
   float: revert;
+}
+
+.bottombar i {
+  @include small() {
+    float: left;
+  }
+}
+
+.copyright {
+  font-size: 14px !important;
 }
