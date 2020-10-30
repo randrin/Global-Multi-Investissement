@@ -32,3 +32,81 @@
 .global-footer-link {
   font-size: 14px;
 }
+
+.global-footer-icon {
+  color: var(--blue-pacific) !important;
+  font-weight: 600;
+}
+
+.global-footer-social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #777;
+  margin: 0;
+  background-color: transparent;
+  border: .1rem solid #e1e2e6;
+  border-radius: 50%;
+  text-decoration: none;
+  opacity: 1;
+  transition: all .35s ease;
+}
+
+.global-footer-list-social {
+  left: -40px;
+  position: relative;
+  list-style: none;
+  display: flex;
+  li {
+    margin-right: 15px;
+    font-size: 25px;
+  }
+}
+
+.global-btn-facebook {
+  &:hover {
+    border-color: #435f9f !important;
+    background: #435f9f !important;
+
+    .fa-facebook {
+      color: var(--white);
+    }
+  }
+
+  .fa-facebook {
+    color: #435f9f;
+  }
+}
+
+.global-btn-twitter {
+  &:hover {
+    border-color: #00aaf0 !important;
+    background: #00aaf0 !important;
+
+    .fa-twitter {
+      color: var(--white);
+    }
+  }
+
+  .fa-twitter {
+    color: #00aaf0;
+  }
+}
+
+.global-btn-instagram {
+  &:hover {
+    border-color: #bc2a8d !important;
+    background: linear-gradient(to right, #F7D440 0%, #F50000 100%) !important;
+
+    .fa-instagram {
+      color: var(--white);
+    }
+  }
+
+  .fa-instagram {
+    color: #bc2a8d;
+  }
+}

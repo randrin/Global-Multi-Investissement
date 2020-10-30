@@ -7,8 +7,9 @@ class FooterUserSite extends Component {
             currentDate: new Date().getFullYear()
         }
     }
+
     render() {
-        const { currentDate } = this.state;
+        const {currentDate} = this.state;
         return (
             <>
                 <footer>
@@ -28,32 +29,26 @@ class FooterUserSite extends Component {
                                     </div>
                                     <ul className="location">
                                         <li>
-                                            <i className="ti-map-alt"></i>
+                                            <i className="ti-map-alt global-footer-icon"></i>
                                             <p>33 new montgomery st.750 san francisco, CA USA 94105.</p>
                                         </li>
                                         <li>
-                                            <i className="ti-mobile"></i>
+                                            <i className="ti-mobile global-footer-icon"></i>
                                             <p>+1-56-346 345</p>
                                         </li>
                                     </ul>
-                                </div>
-                            </div>
-                            <div className="col-lg-2 col-md-4">
-                                <div className="widget">
-                                    <div className="widget-title"><h4>follow</h4></div>
-                                    <ul className="list-style">
-                                        <li><i className="fa fa-facebook-square"></i> <a
-                                            href="https://web.facebook.com/shopcircut/" title="">facebook</a></li>
-                                        <li><i className="fa fa-twitter-square"></i><a
-                                            href="https://twitter.com/login?lang=en" title="">twitter</a></li>
-                                        <li><i className="fa fa-instagram"></i><a
-                                            href="https://www.instagram.com/?hl=en"
-                                            title="">instagram</a></li>
-                                        <li><i className="fa fa-google-plus-square"></i> <a
-                                            href="https://plus.google.com/discover" title="">Google+</a></li>
-                                        <li><i className="fa fa-pinterest-square"></i> <a
-                                            href="https://www.pinterest.com/"
-                                            title="">Pintrest</a></li>
+                                    <br />
+                                    <div className="widget-title"><h4>Follow Us On</h4></div>
+                                    <ul className="global-footer-list-social">
+                                        <li>
+                                            <a href="#" title="" className="global-footer-social-icon global-btn-facebook"><i className="fa fa-facebook"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="" className="global-footer-social-icon global-btn-twitter"><i className="fa fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"className="global-footer-social-icon global-btn-instagram"><i className="fa fa-instagram"></i></a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -67,25 +62,52 @@ class FooterUserSite extends Component {
                                         <li><a href="#">Careers</a></li>
                                         <li><a href="#">Affiliate</a></li>
                                         <li><a href="#">Partners</a></li>
-                                        <li><a href="#">contact us</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4">
                                 <div className="widget">
-                                    <div className="widget-title"><h4>useful links</h4></div>
+                                    <div className="widget-title"><h4>Our Services</h4></div>
                                     <ul className="list-style">
-                                        <li><a href="#" title="">leasing</a></li>
-                                        <li><a href="#" title="">submit route</a></li>
-                                        <li><a href="#" title="">how does it work?</a></li>
-                                        <li><a href="#" title="">agent listings</a></li>
-                                        <li><a href="#" title="">view All</a></li>
+                                        <li><a href="#">Service 1</a></li>
+                                        <li><a href="#">Service 2</a></li>
+                                        <li><a href="#">Service 3</a></li>
+                                        <li><a href="#">Service 4</a></li>
+                                        <li><a href="#">Service 5</a></li>
                                     </ul>
                                 </div>
                             </div>
                             <div className="col-lg-2 col-md-4">
                                 <div className="widget">
-                                    <div className="widget-title"><h4>download apps</h4></div>
+                                    <div className="widget-title"><h4>Customers</h4></div>
+                                    <ul className="list-style">
+                                        <li><a href="#">Invite Friends</a></li>
+                                        <li><a href="#">Reviews</a></li>
+                                        <li><a href="#">Customer Support</a></li>
+                                        <li><a href="#">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-lg-2 col-md-4">
+                                <div className="widget">
+                                    <div className="widget-title"><h4>Support & Socials</h4></div>
+                                    <ul className="list-style">
+                                        <li>
+                                            <a href="#" title="">
+                                                <i className="ti-help global-footer-icon"></i> Support & Help
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="">
+                                                <i className="ti-comments global-footer-icon"></i> Community & Social
+                                            </a>
+                                        </li>
+                                        <li><a href="#" title="">
+                                            <i className="ti-location-pin global-footer-icon"></i> Where to find us
+                                        </a></li>
+                                    </ul>
+                                    <br />
+                                    <div className="widget-title"><h4>Download Apps</h4></div>
                                     <ul className="colla-apps">
                                         <li><a href="https://play.google.com/store?hl=en" title=""><i
                                             className="fa fa-android"></i>android</a></li>
@@ -105,12 +127,16 @@ class FooterUserSite extends Component {
                         <div className="row">
                             <div className="col-md-12">
                                 <span className="copyright">Copyright © {currentDate} -
-                                    <a href="/" className="global-footer-title underline">Global Multi Investissement</a> . Réalisé par <a target="_blank" href={'www.kazougroup.com'}>KazouGroup Srl</a>
+                                    <a href="/"
+                                       className="global-footer-title underline">Global Multi Investissement</a> . Realized by <a
+                                        target="_blank" href={'www.kazougroup.com'}>KazouGroup Srl</a>
                                 </span>
                                 <i>
-                                    <a href="/privacy-policy" className="underline global-footer-link">Privacy Policy</a>
+                                    <a href="/privacy-policy" className="underline global-footer-link">Privacy
+                                        Policy</a>
                                     <span className="global-bullet"></span>
-                                    <a href="/conditions-terms" className="underline global-footer-link">Terms & Conditions</a>
+                                    <a href="/conditions-terms" className="underline global-footer-link">Terms &
+                                        Conditions</a>
                                     <span className="global-bullet"></span>
                                     <a href="/cookies" className="underline global-footer-link">Cookies</a>
                                 </i>

@@ -16,7 +16,7 @@ export class NavUserSite extends Component {
                         </span>
                         <span className="mh-text">
                             <a href="/" title="">
-                                <img src="/assets/images/logo2.png" alt=""/>
+                                <img src="/assets/images/logo.png" alt="Global Investissement"/>
                             </a>
 			            </span>
                     </div>
@@ -133,26 +133,35 @@ export class NavUserSite extends Component {
 
                 <div className="topbar stick">
                     <div className="logo">
-                        <a title="" href="/"><img src="/assets/images/logo.png" alt=""/></a>
+                        <a title="" href="/">
+                            <img src="/assets/images/logo.png" alt="Global Investissement"/></a>
                     </div>
 
                     <div className="top-area">
                         <ul className="main-menu">
-
-
                             <li className="global-main-menu">
                                 <a href="/" className="underline">Global Invest</a>
                             </li>
                             <li>
-                                <a href="#" title="">Investissement</a>
+                                <a href="#" title="">Account & Services</a>
                                 <ul>
-                                    <li><a href="404.html" title="">Lien 1</a></li>
-                                    <li><a href="about.html" title="">Lien 2</a></li>
-                                    <li><a href="contact.html" title="">Lien 3</a></li>
-                                    <li><a href="faq.html" title="">Lien 4</a></li>
-                                    <li><a href="insights.html" title="">Lien 5</a></li>
-                                    <li><a href="knowledge-base.html" title="">Lien 6</a></li>
-                                    <li><a href="widgets.html" title="">Lien 7</a></li>
+                                    <li><a href="#">Service 1</a></li>
+                                    <li><a href="#">Service 2</a></li>
+                                    <li><a href="#">Service 3</a></li>
+                                    <li><a href="#">Service 4</a></li>
+                                    <li><a href="#">Service 5</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#" title="">Investissements</a>
+                                <ul>
+                                    <li><a href="#">Investissement 1</a></li>
+                                    <li><a href="#">Investissement 2</a></li>
+                                    <li><a href="#">Investissement 3</a></li>
+                                    <li><a href="#">Investissement 4</a></li>
+                                    <li><a href="#">Investissement 5</a></li>
+                                    <li><a href="#">Investissement 6</a></li>
+                                    <li><a href="#">Investissement 7</a></li>
                                 </ul>
                             </li>
                             <li className="global-main-menu">
