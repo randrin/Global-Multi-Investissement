@@ -36,6 +36,7 @@
 .global-footer-icon {
   color: var(--blue-pacific) !important;
   font-weight: 600;
+  margin-right: 10px;
 }
 
 .global-footer-social-icon {
@@ -53,6 +54,9 @@
   text-decoration: none;
   opacity: 1;
   transition: all .35s ease;
+  i {
+    font-size: 20px;
+  }
 }
 
 .global-footer-list-social {
