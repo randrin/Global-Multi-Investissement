@@ -18,7 +18,10 @@ class ServicesSite extends Component {
                                         <i className="fa fa-wordpress"></i>
                                         <h2>WordPress Services</h2>
                                         <p>Met consectetur adipisicing elit dolore suscipit, inventore aliquid...</p>
-                                        <a href="#" className="main-btn" title="">Read More</a>
+                                        <a href="#" className="main-btn" title="">
+                                            <span className="mr-1">Read More</span>
+                                            <i className="ti-angle-double-right gloabal-services-icon"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6">
@@ -26,7 +29,10 @@ class ServicesSite extends Component {
                                         <i className="fa fa-html5"></i>
                                         <h2>Html Services</h2>
                                         <p>Met consectetur adipisicing elit dolore suscipit, inventore aliquid...</p>
-                                        <a href="#" className="main-btn" title="">Read More</a>
+                                        <a href="#" className="main-btn" title="">
+                                            <span className="mr-1">Read More</span>
+                                            <i className="ti-angle-double-right gloabal-services-icon"></i>
+                                        </a>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 col-md-6">
@@ -34,7 +40,10 @@ class ServicesSite extends Component {
                                         <i className="fa fa-google-wallet"></i>
                                         <h2>Design Services</h2>
                                         <p>Met consectetur adipisicing elit dolore suscipit, inventore aliquid...</p>
-                                        <a href="#" className="main-btn" title="">Read More</a>
+                                        <a href="#" className="main-btn" title="">
+                                            <span className="mr-1">Read More</span>
+                                            <i className="ti-angle-double-right gloabal-services-icon"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

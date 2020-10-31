@@ -14,21 +14,18 @@ class BanksSite extends Component {
                                             <div className="g-post-classic">
                                                 <figure>
                                                     <img alt="" src="/assets/images/resources/bloggrid-1.jpg"/>
-                                                    <i className="fa fa-video-camera"></i>
                                                 </figure>
                                                 <div className="g-post-meta">
-                                                    <div className="post-title">
-                                                        <h4><a title="" href="#">how to create content that get
-                                                            traffic</a></h4>
-                                                        <p>We got really awesome shots for the new catalog, Here’s a
-                                                            photo from last month’s photoshoot. </p>
-                                                        <span className="p-date">by <a href="#" title="">JACK Sparo</a> - 12 hours ago </span>
+                                                    <div className="post-title global-post-title">
+                                                        <h4><a title="" href="#">Bank Name</a></h4>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and
+                                                            typesetting industry. Lorem Ipsum has been the industry's
+                                                            standard dummy text ever since the 1500s, when an unknown
+                                                            printer took a galley of type and scrambled it to make a
+                                                            type specimen book.</p>
                                                     </div>
-                                                    <div className="g-post-ranking">
-                                                        <a title="" href="#" className="likes"><i
-                                                            className="fa fa-heart-o"></i>10 likes</a>
-                                                        <a title="" href="#" className="coments"><i
-                                                            className="fa fa-comment-o"></i>5 comments</a>
+                                                    <div className="g-post-ranking global-blue-btn">
+                                                        <a title="" href="#">Open Account</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -37,21 +34,18 @@ class BanksSite extends Component {
                                             <div className="g-post-classic">
                                                 <figure>
                                                     <img alt="" src="/assets/images/resources/bloggrid-2.jpg"/>
-                                                    <i className="fa fa-soundcloud"></i>
                                                 </figure>
                                                 <div className="g-post-meta">
-                                                    <div className="post-title">
-                                                        <h4><a title="" href="#">how to create content that get
-                                                            traffic</a></h4>
-                                                        <p>We got really awesome shots for the new catalog, Here’s a
-                                                            photo from last month’s photoshoot. </p>
-                                                        <span className="p-date">by <a href="#" title="">JACK Sparo</a> - 12-Sep-2018 </span>
+                                                    <div className="post-title global-post-title">
+                                                        <h4><a title="" href="#">Bank Name</a></h4>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and
+                                                            typesetting industry. Lorem Ipsum has been the industry's
+                                                            standard dummy text ever since the 1500s, when an unknown
+                                                            printer took a galley of type and scrambled it to make a
+                                                            type specimen book.</p>
                                                     </div>
-                                                    <div className="g-post-ranking">
-                                                        <a title="" href="#" className="likes"><i
-                                                            className="fa fa-heart-o"></i>10 likes</a>
-                                                        <a title="" href="#" className="coments"><i
-                                                            className="fa fa-comment-o"></i>5 comments</a>
+                                                    <div className="g-post-ranking global-blue-btn">
+                                                        <a title="" href="#">Open Account</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -60,26 +54,22 @@ class BanksSite extends Component {
                                             <div className="g-post-classic">
                                                 <figure>
                                                     <img alt="" src="/assets/images/resources/bloggrid-3.jpg"/>
-                                                    <i className="fa fa-image"></i>
                                                 </figure>
                                                 <div className="g-post-meta">
-                                                    <div className="post-title">
-                                                        <h4><a title="" href="#">how to create content that get
-                                                            traffic</a></h4>
-                                                        <p>We got really awesome shots for the new catalog, Here’s a
-                                                            photo from last month’s photoshoot. </p>
-                                                        <span className="p-date">by <a href="#" title="">JACK Sparo</a> - 2 days ago </span>
+                                                    <div className="post-title global-post-title">
+                                                        <h4><a title="" href="#">Bank Name</a></h4>
+                                                        <p>Lorem Ipsum is simply dummy text of the printing and
+                                                            typesetting industry. Lorem Ipsum has been the industry's
+                                                            standard dummy text ever since the 1500s, when an unknown
+                                                            printer took a galley of type and scrambled it to make a
+                                                            type specimen book.</p>
                                                     </div>
-                                                    <div className="g-post-ranking">
-                                                        <a title="" href="#" className="likes"><i
-                                                            className="fa fa-heart-o"></i>10 likes</a>
-                                                        <a title="" href="#" className="coments"><i
-                                                            className="fa fa-comment-o"></i>5 comments</a>
+                                                    <div className="g-post-ranking global-blue-btn">
+                                                        <a title="" href="#">Open Account</a>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <button className="btn-view btn-load-more">Load More</button>
                                     </div>
                                 </div>
                             </div>

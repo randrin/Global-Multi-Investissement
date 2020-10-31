@@ -139,8 +139,35 @@
   padding: 10px 20px;
   background: var(--blue-pacific);
   font-weight: 600;
+
   &:hover {
     background: transparent;
     color: var(--blue-pacific) !important;
+  }
+}
+
+.gloabal-services-icon {
+  top: 1px;
+  position: relative;
+}
+
+.global-post-title {
+  border-bottom: 1px solid transparent !important;
+}
+
+.global-blue-btn {
+  text-align: center;
+
+  a {
+    background: var(--blue-pacific);
+    color: var(--white);
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 60px;
+    transition: all 0.2s linear 0s;
+    &:hover {
+      box-shadow: 0 0 20px var(--blue-pacific);
+    }
   }
 }
