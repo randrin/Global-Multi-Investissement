@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
-import HelmetSite from '../inc/HelmetSite'
-import NavUserSite from "../inc/NavUserSite";
-import FooterUserSite from "../inc/FooterUserSite";
-
-//import NavUserSite from './inc/NavUserSite'
+import HelmetSite from '../../inc/HelmetSite'
+import NavUserSite from "../../inc/NavUserSite";
+import FooterUserSite from "../../inc/FooterUserSite";
+import BannerContactCtaSite from "../inc/BannerContactCtaSite";
 
 export class FaqSite extends Component {
     render() {
@@ -157,6 +156,7 @@ export class FaqSite extends Component {
                         </div>
                     </div>
                 </section>
+                <BannerContactCtaSite />
                 <FooterUserSite/>
             </>
         )

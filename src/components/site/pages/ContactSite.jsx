@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import HelmetSite from "../inc/HelmetSite";
-import NavUserSite from "../inc/NavUserSite";
-import FooterUserSite from "../inc/FooterUserSite";
+import HelmetSite from "../../inc/HelmetSite";
+import NavUserSite from "../../inc/NavUserSite";
+import FooterUserSite from "../../inc/FooterUserSite";
 
 class ContactSite extends Component {
     render() {

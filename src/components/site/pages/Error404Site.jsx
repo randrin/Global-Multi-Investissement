@@ -7,7 +7,7 @@ class Error404Site extends Component {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="error-page">
-                            <div className="bg-image global-bg-image"></div>
+                            <div className="bg-image" style={{ backgroundImage: 'url(/assets/images/resources/404.jpg)'}}></div>
                             <div className="error-meta">
                                 <h1>whoops!</h1>
                                 <span>we couldn't find that page </span>

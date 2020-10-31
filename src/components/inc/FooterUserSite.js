@@ -56,7 +56,7 @@ class FooterUserSite extends Component {
                                 <div className="widget">
                                     <div className="widget-title"><h4>Compagny</h4></div>
                                     <ul className="list-style">
-                                        <li><a href="#">about us</a></li>
+                                        <li><a href="/about">about us</a></li>
                                         <li><a href="#">Security</a></li>
                                         <li><a href="#">Blog</a></li>
                                         <li><a href="#">Careers</a></li>
