@@ -8,7 +8,7 @@ class ServicesSite extends Component {
                     <div className="container">
                         <div className="col-lg-12">
                             <div className="section-heading">
-                                <h2>Our Services</h2>
+                                <h1>Our Services</h1>
                             </div>
                         </div>
                         <div className="servic-category">

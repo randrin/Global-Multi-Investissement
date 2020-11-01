@@ -7,6 +7,7 @@ import ClientsSite from "./site/inc/ClientsSite";
 import BannerAccountCta from "./site/inc/BannerAccountCta";
 import ServicesSite from "./site/inc/ServicesSite";
 import BanksSite from "./site/inc/BanksSite";
+import BannerHeader from "./site/inc/BannerHeader";
 
 
 export class IndexSite extends Component {
@@ -15,6 +16,7 @@ export class IndexSite extends Component {
             <>
                 <HelmetSite title={`Global Multi Investissement`}/>
                 <NavUserSite/>
+                <BannerHeader />
                 <ServicesSite />
                 <ClientsSite />
                 <BannerAccountCta />

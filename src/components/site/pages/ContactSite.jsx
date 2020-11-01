@@ -15,7 +15,10 @@ class ContactSite extends Component {
                             <div className="row">
                                 <div className="col-lg-12">
                                     <div className="g-map">
-                                        <div id="map-canvas"></div>
+                                        <iframe
+                                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2805.7566258661973!2d8.865109214944285!3d45.313341651518954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786e348269e11f9%3A0x729723cae3bbb306!2sVia%20Turati%2C%2027029%20Vigevano%20PV!5e0!3m2!1sen!2sit!4v1604185545858!5m2!1sen!2sit"
+                                            width="600" height="400" frameBorder="0"
+                                            allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                                         <div className="map-meta">
                                             <h1>get in touch</h1>
                                             <p>this is a google map. you may see our location, or using street view you

@@ -10,7 +10,7 @@ class ClientsSite extends Component {
                             <div className="col-lg-12">
                                 <div className="row">
                                     <div className="section-heading">
-                                        <h2>Bank Sponsors</h2>
+                                        <h1>Bank Sponsors</h1>
                                     </div>
                                     <ul className="sponsor-logo">
                                         <li><img alt="" src="/assets/images/resources/sponsor-gray1.png"/></li>

@@ -166,8 +166,52 @@
     font-size: 15px;
     padding: 12px 60px;
     transition: all 0.2s linear 0s;
+
     &:hover {
       box-shadow: 0 0 20px var(--blue-pacific);
+    }
+  }
+}
+
+.global-banner-header-container {
+  figure img {
+    width: 100%;
+  }
+
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.global-banner-header-box {
+  background: var(--blue-pacific) none repeat scroll 0 0;
+  color: #fff;
+  left: 5%;
+  padding: 20px;
+  position: absolute;
+  top: 80px;
+  border-radius: 10px;
+  width: 500px;
+  z-index: 9;
+}
+
+.global-banner-header-cta {
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+  a {
+    background: var(--white) none repeat scroll 0 0;
+    color: var(--blue-pacific);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 60px;
+    vertical-align: middle;
+    transition: all 0.2s linear 0s;
+    &:hover {
+      background: var(--blue-pacific);
+      color: var(--white);
     }
   }
 }
