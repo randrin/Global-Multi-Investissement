@@ -4,7 +4,7 @@ class ClientsSite extends Component {
     render() {
         return (
             <section>
-                <div className="gap100 no-top">
+                <div className="gap100">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">

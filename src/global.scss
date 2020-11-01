@@ -146,7 +146,9 @@
   }
 }
 
-.gloabal-services-icon {
+.gloabal-services-icon,
+.gloabal-banner-header-icon,
+.gloabal-banner-account-cta-icon {
   top: 1px;
   position: relative;
 }
@@ -173,7 +175,40 @@
   }
 }
 
-.global-banner-header-container {
+// Banner Account Cta Component
+.global-banner-account-cta-wrapper {
+
+  a {
+    &:hover {
+      .gloabal-banner-account-cta-icon {
+        display: inline-block;
+      }
+    }
+  }
+
+  .gloabal-banner-account-cta-icon {
+    display: none;
+  }
+}
+
+// Banks Component
+.global-banks-wrapper {
+  .section-heading {
+    text-align: left;
+
+    &:before {
+      left: 0%;
+      transform: translate(0%);
+    }
+
+    p {
+      margin: 14px 0;
+    }
+  }
+}
+
+// Banner Header Component
+.global-banner-header-wrapper {
   figure img {
     width: 100%;
   }
@@ -181,37 +216,53 @@
   display: block;
   position: relative;
   width: 100%;
-}
 
-.global-banner-header-box {
-  background: var(--blue-pacific) none repeat scroll 0 0;
-  color: #fff;
-  left: 5%;
-  padding: 20px;
-  position: absolute;
-  top: 80px;
-  border-radius: 10px;
-  width: 500px;
-  z-index: 9;
-}
+  .global-banner-header-box {
+    @include small() {
+      display: none;
+    }
+    background: var(--blue-pacific) none repeat scroll 0 0;
+    color: #fff;
+    left: 5%;
+    padding: 20px;
+    position: absolute;
+    top: 80px;
+    border-radius: 10px;
+    width: 500px;
+    z-index: 9;
+  }
 
-.global-banner-header-cta {
-  display: inline-block;
-  text-align: right;
-  vertical-align: middle;
-  a {
-    background: var(--white) none repeat scroll 0 0;
-    color: var(--blue-pacific);
-    border-radius: 5px;
+  .global-banner-header-cta {
     display: inline-block;
-    font-size: 18px;
-    font-weight: bold;
-    padding: 11px 60px;
+    text-align: right;
     vertical-align: middle;
-    transition: all 0.2s linear 0s;
-    &:hover {
-      background: var(--blue-pacific);
-      color: var(--white);
+
+    a {
+      background: var(--white) none repeat scroll 0 0;
+      color: var(--blue-pacific);
+      border-radius: 5px;
+      display: inline-block;
+      font-size: 18px;
+      font-weight: bold;
+      padding: 11px 60px;
+      vertical-align: middle;
+      transition: all 0.2s linear 0s;
+
+      &:hover {
+        background: var(--blue-pacific);
+        color: var(--white);
+        border: 1px solid var(--white);
+
+        .gloabal-banner-header-icon {
+          display: inline-block;
+        }
+      }
     }
   }
+
+  .gloabal-banner-header-icon {
+    display: none;
+  }
 }
+
+

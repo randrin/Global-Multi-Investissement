@@ -4,7 +4,7 @@ class BannerAccountCta extends Component {
     render() {
         return (
             <section>
-                <div className="gap no-gap bluesh high-opacity btm-mockup">
+                <div className="gap no-gap bluesh high-opacity btm-mockup global-banner-account-cta-wrapper">
                     <div className="content-bg-wrap" style={{background: 'url(/assets/images/resources/btm-banner.png)'}}></div>
                     <div className="container">
                         <div className="row">
@@ -15,7 +15,10 @@ class BannerAccountCta extends Component {
                                     </div>
                                     <div className="baner-inf">
                                         <span>Want to start now?</span>
-                                        <a href="/login" title="">Open your Account</a>
+                                        <a href="/login" title="">
+                                            <span className="mr-1">Open your Account</span>
+                                            <i className="ti-arrow-right gloabal-banner-account-cta-icon"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>

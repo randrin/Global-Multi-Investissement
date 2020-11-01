@@ -5,9 +5,14 @@ class BanksSite extends Component {
         return (
             <section>
                 <div className="gap gray-bg">
-                    <div className="container">
+                    <div className="container global-banks-wrapper">
                         <div className="row" id="page-contents">
                             <div className=" col-lg-12">
+                                <div className="section-heading">
+                                    <h1>Related Banks</h1>
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                                </div>
                                 <div className="blog-sec">
                                     <div className="row">
                                         <div className="col-lg-4 col-sm-6">
