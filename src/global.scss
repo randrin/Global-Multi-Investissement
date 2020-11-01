@@ -148,7 +148,8 @@
 
 .gloabal-services-icon,
 .gloabal-banner-header-icon,
-.gloabal-banner-account-cta-icon {
+.gloabal-banner-account-cta-icon,
+.gloabal-expertises-icon {
   top: 1px;
   position: relative;
 }
@@ -172,6 +173,40 @@
     &:hover {
       box-shadow: 0 0 20px var(--blue-pacific);
     }
+  }
+}
+
+// Banner Expertises Component
+.global-expertises-wrapper {
+
+  .global-expertises-item {
+    @include small() {
+      padding: 50px 0;
+    }
+    padding: 100px 0;
+
+    .global-expertises-img-icon {
+      font-size: 72px;
+      color: var(--blue-pacific);
+      border: 1px solid var(--blue-pacific);
+      padding: 30px;
+      border-radius: 50%;
+    }
+
+    a {
+      top: 50px;
+
+      &:hover {
+        .gloabal-expertises-icon {
+          display: inline-block;
+          color: var(--blue-pacific);
+        }
+      }
+    }
+  }
+
+  .gloabal-expertises-icon {
+    display: none;
   }
 }
 

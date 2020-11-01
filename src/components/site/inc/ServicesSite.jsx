@@ -18,7 +18,7 @@ class ServicesSite extends Component {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="category-box selected">
                                         <i className="fa fa-wordpress"></i>
-                                        <h2>WordPress Services</h2>
+                                        <h2>Service Name</h2>
                                         <p>Met consectetur adipisicing elit dolore suscipit, inventore aliquid...</p>
                                         <a href="#" className="main-btn" title="">
                                             <span className="mr-1">Read More</span>
@@ -29,7 +29,7 @@ class ServicesSite extends Component {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="category-box">
                                         <i className="fa fa-html5"></i>
-                                        <h2>Html Services</h2>
+                                        <h2>Service Name</h2>
                                         <p>Met consectetur adipisicing elit dolore suscipit, inventore aliquid...</p>
                                         <a href="#" className="main-btn" title="">
                                             <span className="mr-1">Read More</span>
@@ -40,7 +40,7 @@ class ServicesSite extends Component {
                                 <div className="col-lg-4 col-md-6">
                                     <div className="category-box">
                                         <i className="fa fa-google-wallet"></i>
-                                        <h2>Design Services</h2>
+                                        <h2>Service Name</h2>
                                         <p>Met consectetur adipisicing elit dolore suscipit, inventore aliquid...</p>
                                         <a href="#" className="main-btn" title="">
                                             <span className="mr-1">Read More</span>
