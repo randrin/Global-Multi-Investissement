@@ -2,6 +2,10 @@ import React, { Component } from 'react'
 import HelmetSite from '../../inc/HelmetSite'
 import NavUserSite from '../../inc/NavUserSite'
 import FooterUserSite from "../../inc/FooterUserSite";
+import ServicesSite from "../inc/ServicesSite";
+import NewsLettersSite from "../inc/NewsLettersSite";
+import BannerContactCtaSite from "../inc/BannerContactCtaSite";
+import ClientsSite from "../inc/ClientsSite";
 
 export class AboutSite extends Component {
     render() {
@@ -60,6 +64,10 @@ export class AboutSite extends Component {
                         </div>
                     </div>
                 </section>
+                <ServicesSite />
+                <NewsLettersSite />
+                <ClientsSite />
+                <BannerContactCtaSite />
                 <FooterUserSite/>
             </div>
         )

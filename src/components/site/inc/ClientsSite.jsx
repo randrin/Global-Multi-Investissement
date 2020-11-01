@@ -11,8 +11,11 @@ class ClientsSite extends Component {
                                 <div className="row">
                                     <div className="section-heading">
                                         <h1>Bank Sponsors</h1>
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                            Lorem Ipsum has been the industry's standard dummy text ever since the
+                                            1500s.</p>
                                     </div>
-                                    <ul className="sponsor-logo">
+                                    <ul id="sponsor-logo" className="owl-carousel owl-theme">
                                         <li><img alt="" src="/assets/images/resources/sponsor-gray1.png"/></li>
                                         <li><img alt="" src="/assets/images/resources/sponsor-gray2.png"/></li>
                                         <li><img alt="" src="/assets/images/resources/sponsor-gray3.png"/></li>
@@ -26,7 +29,7 @@ class ClientsSite extends Component {
                     </div>
                 </div>
             </section>
-         );
+        );
     }
 }
 

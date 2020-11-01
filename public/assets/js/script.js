@@ -159,7 +159,7 @@ if ($.isFunction($.fn.loadMoreResults)) {
 }
 	//===== owl carousel  =====//
 	if ($.isFunction($.fn.owlCarousel)) {
-		$('.sponsor-logo').owlCarousel({
+		$('#sponsor-logo').owlCarousel({
 			items: 6,
 			loop: true,
 			margin: 30,
