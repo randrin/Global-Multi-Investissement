@@ -22,7 +22,7 @@ export class NavUserSite extends Component {
     render() {
         const {user} = this.state;
         return (
-            <>
+            <div className="global-login-wrapper">
                 <div className="responsive-header">
                     <div className="mh-head first Sticky">
                         <span className="mh-btns-left">
@@ -194,14 +194,17 @@ export class NavUserSite extends Component {
                         </ul>
                         {user ? <ProfileUserSite/> : <>
                             <ul className="setting-area">
-                                <a href="/login" className="global-btn-login">Open Account <i
-                                    className="ti-arrow-right"></i></a>
+                                <a href="/login" className="global-btn-login">
+                                    <i className="ti-user global-login-left-icon"></i>
+                                    <span className="mr-1 ml-1">Open Account</span>
+                                    <i className="ti-arrow-right global-login-right-icon"></i>
+                                </a>
                             </ul>
                         </>}
                     </div>
                 </div>
                 {/*topbar*/}
-            </>
+            </div>
         )
     }
 }

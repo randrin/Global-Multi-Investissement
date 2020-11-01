@@ -132,20 +132,6 @@
   display: block !important;
 }
 
-.global-btn-login {
-  border: 1px solid var(--blue-pacific);
-  color: var(--white) !important;
-  border-radius: 5px;
-  padding: 10px 20px;
-  background: var(--blue-pacific);
-  font-weight: 600;
-
-  &:hover {
-    background: transparent;
-    color: var(--blue-pacific) !important;
-  }
-}
-
 .gloabal-services-icon,
 .gloabal-banner-header-icon,
 .gloabal-banner-account-cta-icon,
@@ -173,6 +159,33 @@
     &:hover {
       box-shadow: 0 0 20px var(--blue-pacific);
     }
+  }
+}
+
+// Login Component
+.global-login-wrapper {
+  .global-btn-login {
+    border: 1px solid var(--blue-pacific);
+    color: var(--white) !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: var(--blue-pacific);
+    font-weight: 600;
+
+    &:hover {
+      background: transparent;
+      color: var(--blue-pacific) !important;
+      .global-login-left-icon {
+        display: none;
+      }
+      .global-login-right-icon {
+        display: inline-block;
+      }
+    }
+  }
+
+  .global-login-right-icon {
+    display: none;
   }
 }
 
