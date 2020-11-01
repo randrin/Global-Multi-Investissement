@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class BannerHeader extends Component {
+class BannerHeaderSite extends Component {
     render() {
         return (
             <section>
@@ -24,4 +24,4 @@ class BannerHeader extends Component {
     }
 }
 
-export default BannerHeader;
+export default BannerHeaderSite;

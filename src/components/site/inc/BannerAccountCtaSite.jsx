@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class BannerAccountCta extends Component {
+class BannerAccountCtaSite extends Component {
     render() {
         return (
             <section>
@@ -30,4 +30,4 @@ class BannerAccountCta extends Component {
     }
 }
 
-export default BannerAccountCta;
+export default BannerAccountCtaSite;
